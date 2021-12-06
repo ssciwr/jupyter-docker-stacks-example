@@ -1,3 +1,3 @@
 FROM jupyter/base-notebook:2021-11-20
 
-COPY --chown=${NB_UID} notebook.ipynb data.txt ${HOME}/
+COPY --chown=${NB_UID} 02-copying-data/notebook.ipynb 02-copying-data/data.txt ${HOME}/
