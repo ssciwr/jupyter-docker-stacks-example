@@ -12,7 +12,7 @@ USER ${NB_USER}
 # Install Conda packages - Conda is already present in all
 # Jupyter Docker stacks
 RUN conda install -c conda-forge \
-      jupyter-resource-usage \
+      jupyter-resource-usage && \
     conda clean -a -q -y
 
 # To avoid duplication of the dependency list, an alternative
