@@ -1,4 +1,4 @@
-FROM jupyter/base-notebook:2021-11-20
+FROM jupyter/base-notebook:2023-01-30
 
 # Installing Debian/Ubuntu packages into the Docker image
 USER root
