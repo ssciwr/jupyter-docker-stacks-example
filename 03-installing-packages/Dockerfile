@@ -1,4 +1,4 @@
-FROM jupyter/base-notebook:2023-01-30
+FROM quay.io/jupyter/base-notebook:2025-01-28
 
 # Installing Debian/Ubuntu packages into the Docker image
 USER root
